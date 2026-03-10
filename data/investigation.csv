@@ -28,7 +28,7 @@ This question is also in PARC DSW Data Management Plan tool.",Recommended,Text,N
 PublicationLink,"The weblink to the publication.
 This question is also in PARC DSW Data Management Plan tool.",Conditionally required,URL,NA
 Deliverable,"The full deliverable (s) name (with number) which will contain the information about the project/study.
-This question is also in PARC DSW Data Management Plan tool.",Mandatory,Text,"D5.4:Inventory of omics data, biochemical data, other relevant readouts in public domain repositories for all PARC selected adverse outcomes"
+This question is also in PARC DSW Data Management Plan tool.",Mandatory,Text,"D5.4 :Inventory of omics data, biochemical data, other relevant readouts in public domain repositories for all PARC selected adverse outcomes"
 DescriptionOfDataGeneration,"Explain the datasets that would be generated from the studies
 Dataset: Organised collection of data or objects in a computational format, that are generated or collected by researchers in the course of their investigations, regardless of their form or method, that form the object on which researchers test a hypothesis. This includes the full range of data: raw, unprocessed datasets, proprietary generated and processed data and secondary data obtained from third parties. Ref: https://terms.codata.org/rdmt/dataset
 This question is also in PARC DSW Data Management Plan tool.",Mandatory,Text,"Data related to relative (fold change) in hormone levels at each concentration, normalised metabolite ratio peak data per sample"
