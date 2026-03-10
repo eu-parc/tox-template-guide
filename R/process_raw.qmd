@@ -1,0 +1,22 @@
+---
+title: "Untitled"
+format: html
+---
+
+
+```{r}
+source ("R/utils.R")
+```
+
+```{r}
+file_part <- "assay_summary_result"
+data <- process_raw_data(glue::glue("data/raw/{file_part}.xlsx"))
+```
+
+```{r}
+View(data)
+```
+
+```{r}
+write_excel_csv(data, glue::glue("data/{file_part}.csv"))
+```

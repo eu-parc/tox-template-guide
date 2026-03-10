@@ -1,0 +1,34 @@
+Field name,Description,Field Type,Data Type,Examples
+TitleOfProject,Title of the project,Mandatory,Text,Hazard characterisation of the mycotoxins enniatins and Alternaria toxins in order to close data gaps and improve risk assessment for human health
+PARCProjectID,The Project ID as used by WP5,Mandatory,String,P5.1.1.a_Y1_Toxins_BfR_UNIVIE (select from dropdown)
+ProjectAcronym,Acronym of the project,Optional,Text,Toxins
+DescriptionOfProject,Short summary of the project (up to 500 words) which describes its aims/objectives and the reasons for doing the project.,Mandatory,Text,NA
+DescriptionOfProjectPARCwebsite,"Project descriptions on PARC website (will be later in the form of nanopublications, and the link will be provided here).",Recommended,URL,NA
+FullNameProjectLeader1,"Project Leader's full name. The names person(s) who conceptualised the project, responsible for drafting the project description, and responsible for its delivery.
+In the case of some PARC projects, project leader and project manager / deputy manager could be the same person",Mandatory,Text,NA
+EmailProjectLeader1,Email id of the project leader,Mandatory,Text,NA
+InstitutionalAffiliationProjectLeader1,The host institution of the project leader.,Mandatory,Text,NA
+RORIdentifier1,"The persistent identifier (PID) of the institution as provided in the Research Organisation Registry. Refer to https://ror.org/. If the PID is unavailable for the Institution, mention ""Not Available""",Mandatory,URL,https://ror.org/02hssy432
+CountryOfInstitution1,"Name of the country where the Institution's office is located to which the project leader is associated with,",Mandatory,Text,NA
+ContactPointP,"Full name of the person who can be contacted post project end regarding the research results (e.g. access, troubleshoot, or respond to questions/ issues related to the research). It could be the same as project leader (s)
+If there is no single person who can be contacted, but a central/generic ID is provided, mention ""Not available""",Mandatory,Text,NA
+ContactPointPEmail,Email id of the Contact Point,Mandatory,String,NA
+HostingInstitution,"Typically, the organisation allowing the resource to be available on the
+internet through the provision of its hardware/software/operating support.
+Note: May also be used for an organisation that stores the data offline. Often a data centre **(if that data centre is not the “publisher” of the resource.)**
+Ref: DateCite https://schema.datacite.org/meta/kernel-4.1/doc/DataCite-MetadataKernel_v4.1.pdf  
+This question is also in PARC DSW Data Management Plan tool.",Optional,Text,"University of Aveiro's - Research Data Repository
+https://www.ua.pt/pt/sbidm/dunas"
+Repository,"The name of the repository where the dataset from the project will be deposited. If not known, discuss with Indrani (i.mahapatra@bham.ac.uk)
+This question is also in PARC DSW Data Management Plan tool.",Recommended,Text,NA
+RepositoryWeblink,"The weblink of the chosen repository where the dataset will be deposited (if not yet known discuss with Indrani)
+This question is also in PARC DSW Data Management Plan tool.",Conditionally required,URL,NA
+Publication,"The title of the publication(s) from the study. If the study associated with the dataset has not been published, leave blank.
+This question is also in PARC DSW Data Management Plan tool.",Recommended,Text,NA
+PublicationLink,"The weblink to the publication.
+This question is also in PARC DSW Data Management Plan tool.",Conditionally required,URL,NA
+Deliverable,"The full deliverable (s) name (with number) which will contain the information about the project/study.
+This question is also in PARC DSW Data Management Plan tool.",Mandatory,Text,"D5.4:Inventory of omics data, biochemical data, other relevant readouts in public domain repositories for all PARC selected adverse outcomes"
+DescriptionOfDataGeneration,"Explain the datasets that would be generated from the studies
+Dataset: Organised collection of data or objects in a computational format, that are generated or collected by researchers in the course of their investigations, regardless of their form or method, that form the object on which researchers test a hypothesis. This includes the full range of data: raw, unprocessed datasets, proprietary generated and processed data and secondary data obtained from third parties. Ref: https://terms.codata.org/rdmt/dataset
+This question is also in PARC DSW Data Management Plan tool.",Mandatory,Text,"Data related to relative (fold change) in hormone levels at each concentration, normalised metabolite ratio peak data per sample"

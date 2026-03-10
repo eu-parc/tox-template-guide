@@ -1,0 +1,94 @@
+project:
+  type: book
+
+book:
+  title: "Tox Template User Guide"
+  subtitle: Guide to help fill the PARC In vitro Toxicity Meta(data) Reporting Template
+  page-footer:  
+    center:
+      - text: "License: CC-BY 4.0"
+        href: https://creativecommons.org/licenses/by/4.0/
+  author:
+    - name: Indrani Mahapatra
+      id: im
+      orcid: 0000-0002-6396-0848
+      affiliation:
+        - id: uob
+          name: University of Birmingham, UK
+          ror: https://ror.org/03angcq70
+    - name: Cecilia Bossa
+      id: cb
+      orcid: 0000-0003-2084-2902
+      affiliation:
+        - id: iss
+          name: Istituto Superiore di Sanità, IT
+          ror: https://ror.org/02hssy432
+    - name: Fadime Oztoprak
+      id: fo
+      orcid: 0000-0001-8594-1798
+      affiliation:
+        - ref: lacdr
+    - name: Gerhard Burger
+      id: gab
+      orcid: 0000-0003-1062-5576
+      affiliation:
+        - id: lacdr
+          name: LACDR, Leiden University, NL
+          ror: https://ror.org/027bh9e22
+    - name: Lora Gerber
+      id: lg
+      affiliation:
+        - name: RAPID, TNO, NL
+          ror: https://ror.org/01bnjb948
+    - name: Nafsika Papaioannou
+      id: np
+      orcid: 0000-0002-2469-4727
+      affiliation:
+        - id: auth
+          name: Aristotle University of Thessaloniki, GR
+          ror: https://ror.org/02j61yw88
+    - name: Walter Zobl
+      id: wz
+      orcid: 0009-0003-2750-8330
+      affiliation:
+        - id: niva
+          name: Norwegian Institute for Water Research, NO
+          ror: https://ror.org/03hrf8236
+    - name: Iseult Lynch
+      id: il
+      orcid: 0000-0003-4250-4584
+      affiliation:
+        - ref: uob
+  license: "CC BY"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - structure.qmd
+    - workbook.qmd
+    - references.qmd
+  # downloads: [pdf]
+  site-url: https://eu-parc.github.io/tox-template-guide
+  repo-url: https://github.com/eu-parc/tox-template-guide
+  repo-branch: main
+  repo-actions: [edit, issue]
+  search: true
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    logo: images/PARC.svg
+    grid:
+      body-width: 900px
+    css: styles.css
+  # pdf:
+  #   documentclass: scrreprt
+  #   include-in-header: header.tex
+
+include-in-header:
+- text: |
+    <meta name="robots" content="noindex, nofollow">
+

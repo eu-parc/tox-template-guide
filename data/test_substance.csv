@@ -1,0 +1,30 @@
+﻿"Field name","Description","Field Type","Data Type","Examples"
+"TestSubstance","Common/widely used name of the chemical/substance being tested, i.e., the test item.","Mandatory","Text","Bisphenol Z"
+"TestSubstanceID","An identifier given in the project. This will be via PID generators or nanopublications","Mandatory","String",NA
+"ChemicalName","Full chemical name as per IUPAC. If the test material/test substance doesn't have any stoichiometric name or is a complex mixture or unknown or variable composition mention ""NotAvailable""","Mandatory","Text","4,4′-(1,1-Cyclohexanediyl)diphenol"
+"TestSubstanceDescription","If the ChemicalName field is ""NotAvailable"", describe about the test substance and method of preparation briefly.","Conditionally required","Text",NA
+"CASRegistryName","The name of the chemical/substance in the CAS Registry. Mention as ""NotAvailable"" if no registry name; or if it is the same as chemical name, leave this field blank","Recommended","Text","1,1-Bis(4-hydroxyphenyl)cyclohexane"
+"CASRegistryNumber","The unique numeric identifier for the test substance if available in the CAS registry","Conditionally required","String","843-55-0"
+"ChEBI","Provide the ChEBI id number. Ref. https://www.ebi.ac.uk/chebi/beta/","Recommended","Numeric","CHEBI:35004"
+"TestSubstanceECRefNo","The unique identifier assigned to substances for regulatory purposes within the European Union by the European Commission.","Optional","String","212-677-1"
+"PubChemCID","Provide the identifier from the PubChem Database","Recommended","Integer","2244"
+"SMILES","The SMILE (Simplified Molecular-Input Line-Entry System) string for the test substance. Use PubChem website as first instance for the SMILE, if not available in PubChem, then check CAS Common Registry, and then ECHA’s chemical database.","Recommended","String","OC1=CC=C(C2(CCCCC2)C3=CC=C(O)C=C3)C=C1"
+"InChI","The “International Chemical Identifier” for the test substance","Recommended","String","InChI=1S/C18H20O2/c19-16-8-4-14(5-9-16)18(12-2-1-3-13-18)15-6-10-17(20)11-7-15/h4-11,19-20H,1-3,12-13H2"
+"InChIKey","The hashed version of InChI","Optional","String","SDDLEVPIDBLVHC-UHFFFAOYSA-N"
+"ChemicalSupplier","The name of the company from whom the test substance was purchased/procured. If synthesised in the laboratory, mention ""in-house"". If by a partner organisation, provide the name of the organisation (e.g. Joint Research Centre).","Mandatory","Text","Joint Research Centre (EC), Sigma-Aldrich"
+"ProductNumber","The product number/catalogue number of the test substance as used in the study","Optional","String","450421"
+"PortfolioBrand","Provide the name of the portfolio brand, if any","Optional","Text","Supelco of Sigma-Aldrich"
+"BatchNumber","The batch number of the test substance. If not available, mention “NotAvailable”","Mandatory","String",NA
+"ChemicalForm","The physical form of the test compound (powder, crystals, in solution)","Mandatory","Text","Powder"
+"ChemicalFormDescription","The solution in which the compound was purchased and its concentration, if the compound was procured in solution form","Conditionally required","Text","in methanol, 1 mg/ml"
+"ChemicalPurity","The percentage purity of the test substance. Provide quantitative information. Qualitative information such as ""reagent grade"" is not considered sufficient. Do not add percentage symbol.","Mandatory","Text","≥99.9"
+"StorageTemperature","The temperature at which the test substance is stored, in °C","Mandatory","Number",NA
+"SolventName","Chemical name of the solvent to be used to dissolve the test substance","Conditionally required","Text","Dimethyl sulfoxide (DMSO)"
+"SolventSupplier","Name of the company who manufactures or supplied the solvent","Recommended","Text","Sigma-Aldrich"
+"SolventProductNumber","The catalogue number/product number of the solvent","Recommended","String","D8418"
+"SolventBatchNumber","Lot/batch number of the solvent","Recommended","String",NA
+"SolventPurity","Report the purity in percentage based on information available during procurement of the solvent","Recommended","Text","≥99.9"
+"MethodOfDissolution","The method adopted to dissolve the test substance in the solvent","Conditionally required","Text","vortexing, sonification"
+"StockSolutionConcentration","The concentration of the stock solution (molar concentrations - mM, microM, etc. - preferred). Please do not use special characters like µ to avoid mojibake.","Mandatory","Number",NA
+"StockSolutionUnit","The concentration unit of the stock solution, if other than molar concentrations","Mandatory","Text",NA
+"StockAliquotStorageConditions","Detail the storage conditions of the stock aliquot, if stock is not prepared fresh before an experiment","Conditionally required","Text","Made fresh on day or made and stored at temperature 4 degree Celsius for maximum 1 month"

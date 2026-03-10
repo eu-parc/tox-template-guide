@@ -1,0 +1,101 @@
+# Purpose of (meta)data reporting template
+
+Researchers in PARC are expected to contribute experimental data and
+associated files (e.g., images, raw data) to related / identified
+repositories (as outlined in PARC overarching and in project-level Data
+Management Plans and details provided via the [DSW
+tool](https://parc.ds-wizard.org/wizard/) for Data Management) and to
+provide rich metadata[^1] about their datasets (to enable resource
+discovery and resource use/reuse) to the PARC Chemical Risk Assessment
+Hub (CRA Hub). The rich metadata for toxicology datasets (i.e., for data
+generated in PARC WP5) should describe:
+
+1.  the test substances used in the experiments
+2.  the cell lines and/or organisms (i.e., test systems) used in the
+    experiments
+3.  the protocols, guidance documents, summary of processes used for
+    experimentation
+4.  the assay methods used
+5.  Summary of data processing steps
+6.  details about the WP5 researchers that generated the data and their
+    institutions.
+
+Metadata, though its definition varies according to the context,[^2] is
+generally known as data about data. As per Gilliland (2016), metadata
+can be defined as:
+
+*the sum total of what one can say at any given moment about any
+information object at any level of aggregation*. The information object
+can be a single item, aggregate of many items or an entire
+database/record keeping system.[^3]
+
+It is useful here to note that **metadata is frequently governed by
+community-developed and community-fostered standards and best practices
+to ensure quality, consistency, and interoperability.** Hence, metadata
+development needs collaboration, within a domain specific community to
+build consensus on the (meta)data scheme development and reporting
+template.
+
+The overarching goal is to create a data structure, i.e., a metadata
+schema, which can be annotated for machine processing and to improve
+sharing, reuse, and retrieval of PARC generated data. The template in MS
+Excel contains some aspects of generalist metadata (i.e., has a few
+elements from the [Simple Dublin Core
+Metadata](https://guides.library.ucsc.edu/c.php?g=618773&p=4306386)
+element set) and aims to create (after reviews and broader buy-in from
+the PARC toxicological community) a rich, specialist metadata element
+set and metadata schema. Schemas help to organise and manage data in a
+structured, consistent, and formal way, which can help to ensure data
+quality and reuse. This template is an effort towards that, as a basis
+for refinement for the individual sub-domains and data types.
+
+Moreover, preparing datasets with above details is a step towards
+FAIRification goals of PARC, which could be presented as:
+
+* **Metadata:** To register metadata in PARC's Chemical Risk Assessment
+(CRA) Hub and make metadata 100% FAIR.
+
+* **Data:** In case of data/datasets, PARC follows the principle of as
+open as possible, as close as necessary. To publish data as open access
+and under CC BY 4.0 licenses (to the extent possible) in a manner that
+follows standards of reporting toxicology experiments to support reuse
+(in the future). PARC's aim is to make up to 80% of datasets that is
+developed in PARC to reach a predefined level of FAIRness.
+
+The metadata requirements are intended to be embedded within the
+"object" (i.e., the MS Excel workbook) describing the experiment as well
+as stand-alone metadata (independent of where the "object" is stored and
+maintained). For example, the test substance and test system details,
+the exposure scheme, the assay, etc. will be part of the data as well as
+part of stand-alone metadata, this metadata could be used for relevant
+repositories in which the data is deposited, as well as in the PARC
+project's Chemical Risk Assessment (CRA) Hub (the PARC FAIR Data Hub).
+
+The associated template (in .xlsx) with this guide is a
+generic/conventional *in vitro* toxicity template which is to be
+customised as per toxicity sub-domains (e.g. genotoxicity, developmental
+neurotoxicity). [The fields of the customised templates are being
+defined and tailored specifically to each toxicity domain]{.mark}.
+
+The following instructions are for researchers in PARC WP5 who are
+generating in vitro experimental data (research outputs). The document
+describes the information needed in the WP5 data reporting templates for
+experiments and constitutes the meta(data) that is required to register
+all PARC WP5 datasets / research outputs in the PARC CRAHub (PARC's
+metadata registry).
+
+[^1]: F2 principle of FAIR: data are described with rich metadata (clear
+    and accessible usage license, detailed provenance, and
+    domain-related community standards).
+
+[^2]: Metadata for one can be data for someone else, i.e., metadata for
+    the data generator often becomes data for someone re-using the data.
+    For example, metadata of a particular in vitro cytotoxicity
+    experiment can be data for a registry which has a collection of
+    different experiments, viz., both in vivo and in vitro experiments
+    assessing immunotoxic effects of a particular compound.
+
+[^3]: Gilliland, Anne J. (2016) "Setting the Stage." In *Introduction to
+    Metadata*, edited by Murtha Baca. 3rd ed. Los Angeles: Getty
+    Publications. <http://www.getty.edu/publications/intrometadata/setting-the-stage/>.
+    Accessed 18 December 2024

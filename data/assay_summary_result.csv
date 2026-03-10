@@ -1,0 +1,20 @@
+﻿"Field name","Description","Field Type","Data Type","Examples"
+"ExperimentID","The experiment ID – the sytax to be decided by WP5. Can be extrapolated from the the MethodNameID.Used for internal reference.","Recommended","String",NA
+"TestSubstance","Common/widely used name of the chemical/substance being tested","Mandatory","Text","Bisphenol Z"
+"SampleID","The sample ID of the experiment; syntax to be finalised by WP5. A possible syntax can be MethodNameID- experiment ID- sample number","Mandatory","String",NA
+"TestSubst anceID","An identifier given in the project.","Recommended","String",NA
+"CellLine","A cell line is defined as a genetically stable and homogenous population of cultured cells that shares a common propagation history (i.e. has been successively passaged together in culture). Ref: Sarntivijai, Sirarat, et al. 2014. “CLO: The Cell Line Ontology.” Journal of Biomedical Semantics 5(1):37. doi: 10.1186/2041-1480-5-37.","Mandatory","Text, URL","HepG2, A549, hiPS - Human induced-pluripotent stem cells, 293FT,Human embryonic stem cell (hESC)"
+"CultureMediumComposition","Describe the cell culture medium composition briefly with key components, such as serum type and percentage, antibiotics.","Mandatory","Text","Roswell Park Memorial Institute Medium (RPMI 1640) supplemented with 10 % (v/v) Fetal Bovine Serum (FBS) heat-inactivated, 100 U/mL penicillin, 100 μg/mL streptomycin, and 4 mM/L glutamine"
+"SerumPercentage","Percentage of serum used in the cell culture media. Avoid adding percentage symbol after reporting the data.","Recommended","Numeric",NA
+"HeatInactivation","Whether the serum was heat activated or not as “yes” or “no” response","Mandatory","Text","Yes, No"
+"NumberOfBiologicalReplicates","The number of biological replicates.<br><br>Biological replicates are parallel measurements of biologically distinct samples that capture random biological variation, which may itself be a subject of study or a noise source.<br><br>Ref: Blainey, P., Krzywinski, M., Altman, N., 2014. Replication. Nature Methods 11, 879–880. https://doi.org/10.1038/nmeth.3091","Recommended","Integer",NA
+"NumberOfTechnicalReplicatesPerCondition","The number of technical replicates per concentration (single, duplicate, triplicate)<br><br>Technical replicates are repeated measurements of the same sample that represent independent measures of the random noise associated with protocols or equipment.<br><br>Ref: Blainey, P., Krzywinski, M., Altman, N., 2014. Replication. Nature Methods 11, 879–880. https://doi.org/10.1038/nmeth.3091","Recommended","Integer",NA
+"ExposureConcentrations","The measured (if not measured, then nominal) amount(s)of the test substance used in the exposure scheme.","Mandatory","Numeric",NA
+"ExposureConcentrationUnit","Unit of the test substance’s measured/nominal concentration (preferably Molar concentrations). Please do not use special characters like µ to avoid mojibake.","Mandatory","Text",NA
+"ExposureDuration","The total time of exposure to the test substance","Mandatory","Integer","24, 48, 7"
+"UnitofExposureDuration","Unit of exposure time/duration","Mandatory","text","hrs, d"
+"RecoveryPeriod","Describe the treatment free period","Recommended","Text",NA
+"PositiveControlEffect","Response of test system to positive control","Mandatory","Text",NA
+"ResponseOfTestSystemNormalised","Response of the test system/cell line","Mandatory","Numeric","IC50, EC50, EC20, BMC50, log2_fold_induction, log10_fold_induction, Percent activity"
+"KeyEventID","If available, add the Key Event ID from AOPWiki.","Optional","Text","KE:2067"
+"Comments","Add comments regarding worth mentioning points not captured earlier.e.g., reasons for data exclusion, consideration of cytotoxicity or other type of interference that can impact the results","Optional","Text",NA

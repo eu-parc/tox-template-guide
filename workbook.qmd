@@ -1,0 +1,217 @@
+# Description of the Workbook
+
+The individual modules (i.e. sheets) of the excel workbook are given a name and the purpose of the sheets is explained below. 
+There might be two or more analytical (measurement) endpoints to establish a primary endpoint, therefore 'n' refers to the number given to different assays (assays to measure LDH release, resazurin reduction, ATP levels can be given numbers as Assay-1, Assay-2, Assay-3 respectively for assessing the toxicological endpoint related to cell viability).
+
+The Project module connects the studies within the specific WP5 project
+(i.e., via the project description) and other details, e.g., name of the
+project leader(s), Organisational affiliation of the Project Leader(s),
+name of the person who can be contacted.
+
+The Action module is a unit of research and contains contextualising
+information about one or more assays.
+
+The Assay module contains information about a set of assays, defined by
+the endpoint measured (e.g., increase in cytokine expression) and the
+technology employed (e.g. ELISA). The worksheet also describes the
+protocol followed and contains references to raw and processed data
+files (and their locations). There might be two or more analytical
+(measurement) endpoints to establish a primary endpoint, therefore
+additional assay files/excel sheets can be created for each of the
+different assays (such as, assays to measure LDH release, resazurin
+reduction, ATP levels for assessing endpoint related to cell viability).
+
+The TestSubstance module contains overall information of the test
+chemical (s) tested in the project.
+
+The PositiveControl module contains information on the positive controls
+used in the assay(s). (This sheet follows the descriptions provided in
+the TestSubstance module).
+
+The NegativeControl module contains information on the negative controls
+used in the assay(s).
+
+The AssaySummaryResult module contains the reporting template for the
+summary data to be reported for a particular assay. For additional
+assays, additional worksheets are suggested to used with sheet tab name
+as summary-assay-1, etc.
+
+**Field Type:**
+
+- **Mandatory (M):** The metadata element shall be documented. These
+  fields are necessary for findability, provenance, proper data
+  analysis, and reuse. Please ensure all information is entered
+  accurately.
+- **Recommended (R):** These properties are strongly suggested to be
+  included in order to provide more insight into your meta(data).
+- **Conditionally required (C):** The metadata element shall be
+  documented if a previous element has been documented/recorded
+- **Optional (O):** Provided to allow users to document their data in an
+  enriched manner. Leave it blank only if it is very challenging to
+  provide a response to a particular field. It is advised to provide as
+  much detail as possible for completeness, QC/QA, and reproducibility.
+
+This document is a genetic template in the sense that some of the fields
+may not be applicable to all toxicological experiments (e.g.,
+pre-treatment, cell defining features), and in some cases, additional
+fields (e.g., differentiation status of cells in the case of
+immunotoxicity experiments) may be considered. Hence, the guide to fill
+the fields will be customised as per the (meta)data reporting template.
+Some information is routinely reported in publications, whereas some
+others are non-formalised (e.g., measured concentrations, lot/batch
+number) part of experiments, and hence generally not reported. Within
+each tab of the excel sheet, some of the fields (e.g., positive control,
+additives) are part of the general set-up of experiments and hence the
+way the information is asked for when filling it could be tedious.
+
+Varied efforts exist (some in parallel) regarding toxicity meta(data)
+and consistency in definitions is yet to be achieved, therefore, we have
+specified the meaning of several terms while describing the field names,
+and wherever they have been taken from published resources (or where
+ontologies exist, even if overlapping efforts are there, e.g.,
+[Foundation Model of
+Anatomy](https://bioportal.bioontology.org/ontologies/FMA) and
+[UBERON](https://obophenotype.github.io/uberon/) for anatomy) the
+reference / and ontology source of the chosen term is provided within
+the description provided in the guidance document.
+
+Each of the sheets in the (meta)data reporting template encompasses
+descriptive, administrative, quality, and provenance metadata types. See
+[@fig-workbook] below which is a snapshot of these different metadata types.
+
+![Workbook modules mapped with metadata element types.](images/guide/image4.png){#fig-workbook}
+
+
+## Investigation (i.e.) Project sheet
+
+```{r}
+#| label: setup
+#| include: false
+source("R/utils.R")
+```
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/investigation.csv")
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```
+
+## Action (activity/study) sheet
+
+The last updated date and release date are metadata fields more applicable to the repository where the data is deposited and is not fully the responsibility of the WP5 researcher generating the data. They have been included here for the sake of completeness. 
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/action.csv")
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```
+
+## Test Substance Sheet
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/test_substance.csv")
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```
+
+## Positive Control Sheet
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/control_pos.csv")
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```
+
+## Negative Control Sheet
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/control_neg.csv")
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```
+
+## Assay Sheet
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/assay_sheet.csv")
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```
+
+## Assay Summary Result sheet
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/assay_summary_result.csv")
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```

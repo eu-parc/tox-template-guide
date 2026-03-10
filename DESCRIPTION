@@ -1,0 +1,14 @@
+Package: PARC.TOX.Template.Guide
+Title: PARC TOX Template Guide
+Version: 0.0.0.9000
+Authors@R: 
+    person("Gerhard", "Burger", , "burger.ga@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-1062-5576"))
+Description: Provides a guide to help fill the PARC in-vitro Toxicity Meta(data) Reporting Template.
+Encoding: UTF-8
+Imports: 
+    gt,
+    readxl,
+    rmarkdown,
+    tidyverse
+License: MIT

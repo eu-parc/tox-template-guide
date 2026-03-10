@@ -1,0 +1,16 @@
+﻿"Field name","Description","Field Type","Data Type","Examples"
+"PCcommon name","Common/widely used name of the chemical/substance used as positive control","Mandatory","Text",NA
+"PCChemicalName","Full chemical name as per IUPAC, if available.","Conditionally required","Text",NA
+"PCDescription","Briefly describe why this substance is chosen as positive control.","Mandatory","Text",NA
+"PCCASRegistryName","The name of the substance used as positive control, if available, in the CAS Registry.","Conditionally Required","Text",NA
+"PCCASRegistryNumber","The unique numeric identifier for the substance used as positive control if available in the CAS registry","Conditionally required","String",NA
+"PCSMILES","The SMILE (Simplified Molecular-Input Line-Entry System) string for the substance used as positive control","Optional","String",NA
+"PCInChI","The “International Chemical Identifier” for the substance used as positive control","Optional","String",NA
+"PCInChIKey","The hashed version of InChI","Optional","String","SDDLEVPIDBLVHC-UHFFFAOYSA-N"
+"PCSupplier","The name of the company from whom the substance used as positive control was purchased/procured.","Recommended","Text",NA
+"PCProductNumber","The product number/catalogue number of the test substance as used in the study","Optional","String",NA
+"PCPortfolioBrand","Provide the name of the portfolio brand, if any","Optional","Text",NA
+"PCBatchNumber","The batch number of the substance used as positive control. If not available, mention “Not Available”","Recommended","String",NA
+"PCForm","The physical form of the substance used as positive control (powder, crystals, in solution)","Recommended","Text",NA
+"PCFormDescription","The solution in which the compound was purchased and its concentration, if the compound was procured in solution form.","Conditionally required","Text",NA
+"PCPurity","The percentage purity of the substance used as positive control. Provide quantitative information. Qualitative information such as ""reagent grade"" is not considered sufficient. Do not add percentage symbol.","Recommended","Text",NA

@@ -1,0 +1,16 @@
+# Preface {.unnumbered}
+
+::: {.callout-warning}
+This guide is a work in progress. It is not yet complete and likely contains errors.
+:::
+
+
+### Funding
+::: {.grid}
+::: {.g-col-6}
+![](/images/EN_Co-fundedbytheEU_RGB_POS.svg){width=100%}
+:::
+::: {.g-col-6 .small}
+This partnership has received funding from the European Union’s Horizon Europe research and innovation programme under Grant Agreement No 101057014.
+:::
+:::
