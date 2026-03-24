@@ -6,8 +6,9 @@ For instructions on how to edit the guide, see below.
 
 ## Editing
 
-To edit this book, you can directly edit the files on GitHub and commit your changes, a GitHub action will then render the updated guide. 
-Alternatively, you can clone this repository and make changes locally, which will give you an (almost instant) preview of your changes.
+To edit this book, you can directly edit the files on GitHub and commit your changes, a GitHub action will then render the updated guide (Recommended). 
+
+Alternatively (not recommended if you've never worked with R/RStudio), you can clone this repository and make changes locally, which will give you an (almost instant) preview of your changes.
 To do so, follow the instructions in the [Quarto documentation](https://quarto.org/docs/get-started/) to set up the required Quarto tools.
 
 ### Quarto Markdown
