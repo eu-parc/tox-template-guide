@@ -54,7 +54,6 @@ FAIRification goals of PARC, which could be presented as:
 
 * **Metadata:** To register metadata in PARC's Chemical Risk Assessment
 (CRA) Hub and make metadata 100% FAIR.
-
 * **Data:** In case of data/datasets, PARC follows the principle of as
 open as possible, as close as necessary. To publish data as open access
 and under CC BY 4.0 licenses (to the extent possible) in a manner that
