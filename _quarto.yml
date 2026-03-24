@@ -37,6 +37,7 @@ book:
           ror: https://ror.org/027bh9e22
     - name: Lora Gerber
       id: lg
+      orcid: 0009-0006-2487-3537
       affiliation:
         - name: RAPID, TNO, NL
           ror: https://ror.org/01bnjb948
