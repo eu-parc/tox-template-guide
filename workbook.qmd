@@ -76,11 +76,7 @@ reference / and ontology source of the chosen term is provided within
 the description provided in the guidance document.
 
 Each of the sheets in the (meta)data reporting template encompasses
-descriptive, administrative, quality, and provenance metadata types. See
-[@fig-workbook] below which is a snapshot of these different metadata types.
-
-![Workbook modules mapped with metadata element types.](images/guide/image4.png){#fig-workbook}
-
+descriptive, administrative, quality, and provenance metadata types.
 
 ## Investigation (i.e.) Project sheet
 
