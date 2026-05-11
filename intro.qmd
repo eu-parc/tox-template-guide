@@ -73,8 +73,8 @@ project's Chemical Risk Assessment (CRA) Hub (the PARC FAIR Data Hub).
 The associated template (in .xlsx) with this guide is a
 generic/conventional *in vitro* toxicity template which is to be
 customised as per toxicity sub-domains (e.g. genotoxicity, developmental
-neurotoxicity). [The fields of the customised templates are being
-defined and tailored specifically to each toxicity domain]{.mark}.
+neurotoxicity). The fields of the customised templates are being
+defined and tailored specifically to each toxicity domain.
 
 The following instructions are for researchers in PARC WP5 who are
 generating in vitro experimental data (research outputs). The document
