@@ -4,10 +4,18 @@ project:
 book:
   title: "Tox Template User Guide"
   subtitle: Guide to help fill the PARC In vitro Toxicity Meta(data) Reporting Template
-  page-footer:  
-    center:
-      - text: "License: CC-BY 4.0"
-        href: https://creativecommons.org/licenses/by/4.0/
+  page-footer:
+    left: |
+      ::: {.grid style="align-items: center;" }
+      ::: {.g-col-5}
+      ![](/images/EN_Co-fundedbytheEU_RGB_POS.svg){width=100%}
+      :::
+      ::: {.g-col-7 .small}
+      This partnership has received funding from the European Union’s Horizon Europe research and innovation programme under Grant Agreement No 101057014.
+      :::
+      :::
+    right: |
+      [![](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)
   author:
     - name: Indrani Mahapatra
       id: im
@@ -85,6 +93,7 @@ format:
     theme:
       - cosmo
       - brand
+      - custom.scss
     logo: images/PARC.svg
     grid:
       body-width: 900px
