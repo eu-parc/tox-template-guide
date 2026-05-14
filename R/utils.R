@@ -31,7 +31,8 @@ process_raw_data <- function(file_path) {
     mutate(Examples = str_replace(Examples, "^[-]*$", NA_character_))
   }
   
-data_as_gt_tables <- function(file_path) {
+data_as_gt_tables <- function(file_path, projects_ongoing = T) {
+  projects_key_remove <- ifelse(!projects_ongoing, "Field Type Ongoing", "Field Type Closed")
   data <- read_csv(file_path, show_col_types = FALSE)
   data |>
     mutate(`Field name` = factor(`Field name`, levels = unique(`Field name`))) |> # prevent auto-sorting of `Field name` column
@@ -46,6 +47,8 @@ data_as_gt_tables <- function(file_path) {
   map(data_split, {
     ~ .x |> 
     slice(-1) |> # Remove `Field name` row
+    filter(key != projects_key_remove) |>
+    mutate(key = replace(key, stringr::str_starts(key, "Field Type"), "Field Type")) |>
     # filter rows where key = "Examples" and value is NA, as those are not relevant to show in the table
     filter(!(key == "Examples" & is.na(value))) |>
     mutate(

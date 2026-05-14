@@ -1,0 +1,133 @@
+## Investigation (i.e.) Project sheet
+
+```{r}
+#| label: setup
+#| include: false
+source("R/utils.R")
+```
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/investigation.csv", projects_ongoing = projects_ongoing)
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```
+
+## Action (activity/study) sheet
+
+The last updated date and release date are metadata fields more applicable to the repository where the data is deposited and is not fully the responsibility of the WP5 researcher generating the data. They have been included here for the sake of completeness. 
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/action.csv", projects_ongoing = projects_ongoing)
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```
+
+## Test Substance Sheet
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/test_substance.csv", projects_ongoing = projects_ongoing)
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```
+
+## Positive Control Sheet
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/control_pos.csv", projects_ongoing = projects_ongoing)
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```
+
+## Negative Control Sheet
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/control_neg.csv", projects_ongoing = projects_ongoing)
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```
+
+## Assay Sheet
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/assay_sheet.csv", projects_ongoing = projects_ongoing)
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```
+
+## Assay Summary Result sheet
+
+```{r}
+#| echo: false
+#| output: asis
+
+tables <- data_as_gt_tables("data/assay_summary_result.csv", projects_ongoing = projects_ongoing)
+
+for (tab in tables) {
+  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
+  "```{r}",
+  "#| echo: false",
+  "tab",
+  "```"
+)))
+}
+```

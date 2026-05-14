@@ -67,6 +67,10 @@ book:
     - structure.qmd
     - workbook.qmd
     - references.qmd
+  appendices:
+    - ongoing.qmd
+    - closed.qmd
+    - diff_closed_projects.qmd
   # downloads: [pdf]
   site-url: https://eu-parc.github.io/tox-template-guide
   repo-url: https://github.com/eu-parc/tox-template-guide

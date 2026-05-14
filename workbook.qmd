@@ -1,5 +1,7 @@
 # Description of the Workbook
 
+## Module organization
+
 The individual modules (i.e. sheets) of the excel workbook are given a name and the purpose of the sheets is explained below. 
 There might be two or more analytical (measurement) endpoints to establish a primary endpoint, therefore 'n' refers to the number given to different assays (assays to measure LDH release, resazurin reduction, ATP levels can be given numbers as Assay-1, Assay-2, Assay-3 respectively for assessing the toxicological endpoint related to cell viability).
 
@@ -78,136 +80,20 @@ the description provided in the guidance document.
 Each of the sheets in the (meta)data reporting template encompasses
 descriptive, administrative, quality, and provenance metadata types.
 
-## Investigation (i.e.) Project sheet
+## Field details
 
-```{r}
-#| label: setup
-#| include: false
-source("R/utils.R")
-```
+::: {.callout-important}
+## Ongoing vs closed projects
+There are differences in the Mandatory fields between ongoing projects and closed projects ({{< var closed_def >}}).
+:::
 
-```{r}
-#| echo: false
-#| output: asis
+To view field details for the workbook modules click the appropriate button below:
 
-tables <- data_as_gt_tables("data/investigation.csv")
-
-for (tab in tables) {
-  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
-  "```{r}",
-  "#| echo: false",
-  "tab",
-  "```"
-)))
-}
-```
-
-## Action (activity/study) sheet
-
-The last updated date and release date are metadata fields more applicable to the repository where the data is deposited and is not fully the responsibility of the WP5 researcher generating the data. They have been included here for the sake of completeness. 
-
-```{r}
-#| echo: false
-#| output: asis
-
-tables <- data_as_gt_tables("data/action.csv")
-
-for (tab in tables) {
-  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
-  "```{r}",
-  "#| echo: false",
-  "tab",
-  "```"
-)))
-}
-```
-
-## Test Substance Sheet
-
-```{r}
-#| echo: false
-#| output: asis
-
-tables <- data_as_gt_tables("data/test_substance.csv")
-
-for (tab in tables) {
-  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
-  "```{r}",
-  "#| echo: false",
-  "tab",
-  "```"
-)))
-}
-```
-
-## Positive Control Sheet
-
-```{r}
-#| echo: false
-#| output: asis
-
-tables <- data_as_gt_tables("data/control_pos.csv")
-
-for (tab in tables) {
-  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
-  "```{r}",
-  "#| echo: false",
-  "tab",
-  "```"
-)))
-}
-```
-
-## Negative Control Sheet
-
-```{r}
-#| echo: false
-#| output: asis
-
-tables <- data_as_gt_tables("data/control_neg.csv")
-
-for (tab in tables) {
-  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
-  "```{r}",
-  "#| echo: false",
-  "tab",
-  "```"
-)))
-}
-```
-
-## Assay Sheet
-
-```{r}
-#| echo: false
-#| output: asis
-
-tables <- data_as_gt_tables("data/assay_sheet.csv")
-
-for (tab in tables) {
-  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
-  "```{r}",
-  "#| echo: false",
-  "tab",
-  "```"
-)))
-}
-```
-
-## Assay Summary Result sheet
-
-```{r}
-#| echo: false
-#| output: asis
-
-tables <- data_as_gt_tables("data/assay_summary_result.csv")
-
-for (tab in tables) {
-  cat(sep = "\n", knitr::knit_child(quiet = TRUE, text = c(
-  "```{r}",
-  "#| echo: false",
-  "tab",
-  "```"
-)))
-}
-```
+::: {.grid .gap-3 .pb-3 .pt-4}
+::: {.g-col-12 .g-col-sm-4}
+[Ongoing projects](/ongoing.qmd){.btn-action-primary .btn-action .btn .btn-lg .w-100 role="button"}
+:::
+::: {.g-col-12 .g-col-sm-4}
+[Closed projects](/closed.qmd){.btn-secondary .btn-action .btn .btn-lg .w-100 role="button"}
+:::
+:::

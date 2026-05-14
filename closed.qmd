@@ -1,0 +1,12 @@
+# Workbook closed projects {#sec-modules-closed}
+
+::: {.callout-warning}
+This is an overview of the workbook modules for **closed** projects ({{< var closed_def >}}), for ongoing projects, see @sec-modules-ongoing.
+:::
+
+```{r}
+#| include: false
+projects_ongoing = F 
+```
+
+{{< include _modules.qmd >}}
