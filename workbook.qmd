@@ -49,7 +49,7 @@ as summary-assay-1, etc.
   provide a response to a particular field. It is advised to provide as
   much detail as possible for completeness, QC/QA, and reproducibility.
 
-This document is a genetic template in the sense that some of the fields
+This document is a generic template in the sense that some of the fields
 may not be applicable to all toxicological experiments (e.g.,
 pre-treatment, cell defining features), and in some cases, additional
 fields (e.g., differentiation status of cells in the case of
