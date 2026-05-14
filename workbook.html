@@ -33,7 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
+<link href="./ongoing.html" rel="next">
 <link href="./structure.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -147,12 +147,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Description of the Workbook</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
@@ -216,13 +210,16 @@ ul.task-list li input[type="checkbox"] {
 <section id="module-organization" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="module-organization"><span class="header-section-number">3.1</span> Module organization</h2>
 <p>The individual modules (i.e.&nbsp;sheets) of the excel workbook are given a name and the purpose of the sheets is explained below. There might be two or more analytical (measurement) endpoints to establish a primary endpoint, therefore ‘n’ refers to the number given to different assays (assays to measure LDH release, resazurin reduction, ATP levels can be given numbers as Assay-1, Assay-2, Assay-3 respectively for assessing the toxicological endpoint related to cell viability).</p>
-<p>The Project module connects the studies within the specific WP5 project (i.e., via the project description) and other details, e.g., name of the project leader(s), Organisational affiliation of the Project Leader(s), name of the person who can be contacted.</p>
-<p>The Action module is a unit of research and contains contextualising information about one or more assays.</p>
-<p>The Assay module contains information about a set of assays, defined by the endpoint measured (e.g., increase in cytokine expression) and the technology employed (e.g.&nbsp;ELISA). The worksheet also describes the protocol followed and contains references to raw and processed data files (and their locations). There might be two or more analytical (measurement) endpoints to establish a primary endpoint, therefore additional assay files/excel sheets can be created for each of the different assays (such as, assays to measure LDH release, resazurin reduction, ATP levels for assessing endpoint related to cell viability).</p>
-<p>The TestSubstance module contains overall information of the test chemical (s) tested in the project.</p>
-<p>The PositiveControl module contains information on the positive controls used in the assay(s). (This sheet follows the descriptions provided in the TestSubstance module).</p>
-<p>The NegativeControl module contains information on the negative controls used in the assay(s).</p>
-<p>The AssaySummaryResult module contains the reporting template for the summary data to be reported for a particular assay. For additional assays, additional worksheets are suggested to used with sheet tab name as summary-assay-1, etc.</p>
+<p><strong>Modules:</strong></p>
+<ul>
+<li>The <strong>Project</strong> module connects the studies within the specific WP5 project (i.e., via the project description) and other details, e.g., name of the project leader(s), Organisational affiliation of the Project Leader(s), name of the person who can be contacted.</li>
+<li>The <strong>Action</strong> module is a unit of research and contains contextualising information about one or more assays.</li>
+<li>The <strong>Assay</strong> module contains information about a set of assays, defined by the endpoint measured (e.g., increase in cytokine expression) and the technology employed (e.g.&nbsp;ELISA). The worksheet also describes the protocol followed and contains references to raw and processed data files (and their locations). There might be two or more analytical (measurement) endpoints to establish a primary endpoint, therefore additional assay files/excel sheets can be created for each of the different assays (such as, assays to measure LDH release, resazurin reduction, ATP levels for assessing endpoint related to cell viability).</li>
+<li>The <strong>TestSubstance</strong> module contains overall information of the test chemical (s) tested in the project.</li>
+<li>The <strong>PositiveControl</strong> module contains information on the positive controls used in the assay(s). (This sheet follows the descriptions provided in the <em>TestSubstance</em> module).</li>
+<li>The <strong>NegativeControl</strong> module contains information on the negative controls used in the assay(s).</li>
+<li>The <strong>AssaySummaryResult</strong> module contains the reporting template for the summary data to be reported for a particular assay. For additional assays, additional worksheets are suggested to used with sheet tab name as summary-assay-1, etc.</li>
+</ul>
 <p><strong>Field Type:</strong></p>
 <ul>
 <li><strong>Mandatory (M):</strong> The metadata element shall be documented. These fields are necessary for findability, provenance, proper data analysis, and reuse. Please ensure all information is entered accurately.</li>
@@ -230,7 +227,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Conditionally required (C):</strong> The metadata element shall be documented if a previous element has been documented/recorded</li>
 <li><strong>Optional (O):</strong> Provided to allow users to document their data in an enriched manner. Leave it blank only if it is very challenging to provide a response to a particular field. It is advised to provide as much detail as possible for completeness, QC/QA, and reproducibility.</li>
 </ul>
-<p>This document is a genetic template in the sense that some of the fields may not be applicable to all toxicological experiments (e.g., pre-treatment, cell defining features), and in some cases, additional fields (e.g., differentiation status of cells in the case of immunotoxicity experiments) may be considered. Hence, the guide to fill the fields will be customised as per the (meta)data reporting template. Some information is routinely reported in publications, whereas some others are non-formalised (e.g., measured concentrations, lot/batch number) part of experiments, and hence generally not reported. Within each tab of the excel sheet, some of the fields (e.g., positive control, additives) are part of the general set-up of experiments and hence the way the information is asked for when filling it could be tedious.</p>
+<p>This document is a generic template in the sense that some of the fields may not be applicable to all toxicological experiments (e.g., pre-treatment, cell defining features), and in some cases, additional fields (e.g., differentiation status of cells in the case of immunotoxicity experiments) may be considered. Hence, the guide to fill the fields will be customised as per the (meta)data reporting template. Some information is routinely reported in publications, whereas some others are non-formalised (e.g., measured concentrations, lot/batch number) part of experiments, and hence generally not reported. Within each tab of the excel sheet, some of the fields (e.g., positive control, additives) are part of the general set-up of experiments and hence the way the information is asked for when filling it could be tedious.</p>
 <p>Varied efforts exist (some in parallel) regarding toxicity meta(data) and consistency in definitions is yet to be achieved, therefore, we have specified the meaning of several terms while describing the field names, and wherever they have been taken from published resources (or where ontologies exist, even if overlapping efforts are there, e.g., <a href="https://bioportal.bioontology.org/ontologies/FMA">Foundation Model of Anatomy</a> and <a href="https://obophenotype.github.io/uberon/">UBERON</a> for anatomy) the reference / and ontology source of the chosen term is provided within the description provided in the guidance document.</p>
 <p>Each of the sheets in the (meta)data reporting template encompasses descriptive, administrative, quality, and provenance metadata types.</p>
 </section>
@@ -670,8 +667,8 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link" aria-label="References">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./ongoing.html" class="pagination-link" aria-label="Workbook ongoing projects">
+        <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Workbook ongoing projects</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
