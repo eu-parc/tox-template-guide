@@ -5,15 +5,15 @@
 The individual modules (i.e. sheets) of the excel workbook are given a name and the purpose of the sheets is explained below. 
 There might be two or more analytical (measurement) endpoints to establish a primary endpoint, therefore 'n' refers to the number given to different assays (assays to measure LDH release, resazurin reduction, ATP levels can be given numbers as Assay-1, Assay-2, Assay-3 respectively for assessing the toxicological endpoint related to cell viability).
 
-The Project module connects the studies within the specific WP5 project
+**Modules:**
+
+* The **Project** module connects the studies within the specific WP5 project
 (i.e., via the project description) and other details, e.g., name of the
 project leader(s), Organisational affiliation of the Project Leader(s),
 name of the person who can be contacted.
-
-The Action module is a unit of research and contains contextualising
+* The **Action** module is a unit of research and contains contextualising
 information about one or more assays.
-
-The Assay module contains information about a set of assays, defined by
+* The **Assay** module contains information about a set of assays, defined by
 the endpoint measured (e.g., increase in cytokine expression) and the
 technology employed (e.g. ELISA). The worksheet also describes the
 protocol followed and contains references to raw and processed data
@@ -22,18 +22,14 @@ files (and their locations). There might be two or more analytical
 additional assay files/excel sheets can be created for each of the
 different assays (such as, assays to measure LDH release, resazurin
 reduction, ATP levels for assessing endpoint related to cell viability).
-
-The TestSubstance module contains overall information of the test
+* The **TestSubstance** module contains overall information of the test
 chemical (s) tested in the project.
-
-The PositiveControl module contains information on the positive controls
+* The **PositiveControl** module contains information on the positive controls
 used in the assay(s). (This sheet follows the descriptions provided in
-the TestSubstance module).
-
-The NegativeControl module contains information on the negative controls
+the *TestSubstance* module).
+* The **NegativeControl** module contains information on the negative controls
 used in the assay(s).
-
-The AssaySummaryResult module contains the reporting template for the
+* The **AssaySummaryResult** module contains the reporting template for the
 summary data to be reported for a particular assay. For additional
 assays, additional worksheets are suggested to used with sheet tab name
 as summary-assay-1, etc.
