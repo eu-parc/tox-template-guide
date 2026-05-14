@@ -1,7 +1,7 @@
 # Preface {.unnumbered}
 
 ::: {.callout-warning}
-This guide is a work in progress. It is not yet complete and likely contains errors.
+We're in the process of finalizing this guide; content can undergo (minor) changes.
 :::
 
 
