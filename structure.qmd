@@ -56,6 +56,7 @@ resources:
 4.  OECD Harmonised Templates (especially OHT 201[^8])
 5.  Guidance document on Good Cell and Tissue Culture Practice 2.0 (GCCP
     2.0)[^9]
+6.  PARC Deliverable D9.4-2: Quality criteria in vitro toxicity testing & toxicokinetics [^13]
 
 The data completeness for each experiment is judged differently (and
 especially for reproducibility) -- both in a quantitative and in a
@@ -137,7 +138,7 @@ and/or to the PARC CRA Hub.
     animal experimentation 39, 30--70.
     <https://doi.org/10.14573/altex.2111011>
     
-    [^10]: The information on Manufacturer, Batch/lot numbers, etc. are
+[^10]: The information on Manufacturer, Batch/lot numbers, etc. are
     being asked only once. The rationale for asking such data (though
     extensive) could help to provide preliminary explanation of
     technical batch effects, uncertainties of test method, some of the
@@ -153,3 +154,5 @@ and/or to the PARC CRA Hub.
 
 [^12]: Test method here include the components: test system, endpoint,
     exposure scheme, prediction model.
+
+[^13]: Erdem, J.S., et al. (2025). Quality criteria in vitro toxicity testing & toxicokinetics. Available at: https://www.eu-parc.eu/sites/default/files/2025-11/PARC_D9.4-2.pdf
