@@ -1,16 +1,16 @@
 ﻿Field name,Description,Field Type Closed,Field Type Ongoing,Data Type,Examples
-NCcommon name,Common/widely used name of the chemical/substance used as positive control,Mandatory,Mandatory,Text,NA
-NCChemicalName,"Full chemical name as per IUPAC, if available.",Conditionally required,Conditionally required,Text,NA
-NCDescription,Briefly describe why this substance is chosen as negative control.,Recommended,Recommended,Text,NA
-NCCASRegistryName,"The name of the substance used as negative control, if available, in the CAS Registry.",Conditionally required,Conditionally required,Text,NA
-NCCASRegistryNumber,The unique numeric identifier for the substance used as negative control if available in the CAS registry,Conditionally required,Conditionally required,String,NA
-NCSMILES,The SMILE (Simplified Molecular-Input Line-Entry System) string for the substance used as negative control,Optional,Optional,String,NA
-NCInChI,The “International Chemical Identifier” for the substance used as negative control,Optional,Optional,String,NA
-NCInChIKey,The hashed version of InChI,Optional,Optional,String,SDDLEVPIDBLVHC-UHFFFAOYSA-N
-NCSupplier,The name of the company from whom the substance used as negative control was purchased/procured.,Recommended,Recommended,Text,NA
-NCProductNumber,The product number/catalogue number of the test substance as used in the study,Optional,Optional,String,NA
-NCPortfolioBrand,"Provide the name of the portfolio brand, if any",Optional,Optional,Text,NA
-NCBatchNumber,"The batch number of the substance used as negative control. If not available, mention “Not Available”",Recommended,Recommended,String,NA
-NCForm,"The physical form of the substance used as negative control (powder, crystals, in solution)",Recommended,Recommended,Text,NA
-NCFormDescription,"The solution in which the compound was purchased and its concentration, if the compound was procured in solution form",Conditionally required,Conditionally required,Text,NA
-NCPurity,"The percentage purity of the substance used as negative control. Provide quantitative information. Qualitative information such as ""reagent grade"" is not considered sufficient. Do not add percentage symbol.",Recommended,Recommended,Text,NA
+NegativeControlCommonName,Common/widely used name of the chemical/substance used as positive control.,Mandatory,Mandatory,Text,NA
+NegativeControlChemicalName,"Full chemical name as per IUPAC, if available. If not available, mention ""NotAvailable"".",Mandatory,Mandatory,Text,NA
+NegativeControlDescription,Briefly describe why this substance is chosen as negative control.,Mandatory,Mandatory,Text,NA
+NegativeControlCASRegistryName,"The name of the substance used as negative control, if available, in the CAS Registry.",Recommended,Mandatory,Text,NA
+NegativeControlCASRegistryNumber,The unique numeric identifier for the substance used as negative control if available in the CAS registry,Recommended,Mandatory,String,NA
+NegativeControlSMILES,The SMILE (Simplified Molecular-Input Line-Entry System) string for the substance used as negative control,Optional,Recommended,String,NA
+NegativeControlInChI,The “International Chemical Identifier” for the substance used as negative control,Optional,Recommended,String,NA
+NegativeControlInChIKey,The hashed version of InChI,Optional,Recommended,String,SDDLEVPIDBLVHC-UHFFFAOYSA-N
+NegativeControlSupplier,The name of the company from whom the substance used as negative control was purchased/procured.,Recommended,Recommended,Text,NA
+NegativeControlProductNumber,The product number/catalogue number of the test substance as used in the study,Optional,Recommended,String,NA
+NegativeControlPortfolioBrand,"Provide the name of the portfolio brand, if any",Optional,Recommended,Text,NA
+NegativeControlBatchNumber,"The batch number of the substance used as negative control. If not available, mention “Not Available”",Optional,Recommended,String,NA
+NegativeControlForm,"The physical form of the substance used as negative control (powder, crystals, in solution)",Optional,Optional,Text,NA
+NegativeControlFormDescription,"The solution in which the compound was purchased and its concentration, if the compound was procured in solution form",Conditionally required,Conditionally required,Text,NA
+NegativeControlPurity,"The percentage purity of the substance used as negative control. Provide quantitative information. Qualitative information such as ""reagent grade"" is not considered sufficient. Do not add percentage symbol.",Optional,Recommended,Text,NA
