@@ -21,11 +21,11 @@ https://www.ua.pt/pt/sbidm/dunas"
 Repository,"The name of the repository where the dataset from the project will be deposited. If not known, discuss with Indrani (i.mahapatra@bham.ac.uk)
 This question is also in PARC DSW Data Management Plan tool.",Recommended,Recommended,Text,NA
 RepositoryWeblink,"The weblink of the chosen repository where the dataset will be deposited. If not known, discuss with Indrani (i.mahapatra@bham.ac.uk)
-This question is also in PARC DSW Data Management Plan tool.",Conditionally required,Conditionally required,URL,NA
+This question is also in PARC DSW Data Management Plan tool.",Conditionally required,Recommended,URL,NA
 Publication,"The title of the publication(s) and/or data publication(s) from the study. If the study associated with the dataset has not been published, leave blank.
-This question is also in PARC DSW Data Management Plan tool. A data publication is a dataset description article published in a manner that promotes reuse, without reporting whether datasets support hypotheses or conclusions. They contain details of how datasets were created (Methods), what they contain (Data Records), and how they were checked and validated (Technical Validation), alongside any code used to create them.",Recommended,Recommended,Text,NA
+This question is also in PARC DSW Data Management Plan tool. A data publication is a dataset description article published in a manner that promotes reuse, without reporting whether datasets support hypotheses or conclusions. They contain details of how datasets were created (Methods), what they contain (Data Records), and how they were checked and validated (Technical Validation), alongside any code used to create them.",Mandatory,Recommended,Text,NA
 PublicationLink,"The weblink to the publication.
-This question is in PARC DSW Data Management Plan tool.",Conditionally required,Conditionally required,URL,NA
+This question is in PARC DSW Data Management Plan tool.",Mandatory,Recommended,URL,NA
 Deliverable,"The full deliverable (s) name (with number) which will contain the information about the project/study.
 This question is also in PARC DSW Data Management Plan tool.",Mandatory,Mandatory,Text,"D5.4 :Inventory of omics data, biochemical data, other relevant readouts in public domain repositories for all PARC selected adverse outcomes"
 DescriptionOfDataGeneration,"Explain the datasets that would be generated from the studies.
