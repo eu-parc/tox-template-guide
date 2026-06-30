@@ -79,3 +79,5 @@ DescriptionOfDataGeneration,"Explain the datasets that would be generated from t
 SummaryDatafileReference,Name of the file which contains measured biological response results.,Recommended,Recommended,String,Stringsummary.csv; stringsummary.xlsx
 FileFormat,"The format in which the file containing the data is available.<br><br>Refer to the following resources to detail the file format:<br><br>https://www.iana.org/assignments/media-types/media-types.xml<br><br>https://rdmkit.elixir-europe.org/data_organisation.html#:~:text=that%20generated%20it.-,Solutions,-The%20best%20file",Mandatory,Mandatory,String,NA
 Filestoragelocation,The location where the file is stored,Mandatory,Mandatory,String,"University repository, Research Data Storage options provided by institutions, SharePoint, OneDrive."
+ContactNameForRawData,Contact information for raw data access,Recommended,Recommended,String,
+ContactNameEmailForRawData,Contact information (Email id) for raw data access,Recommended,Recommended,String,
