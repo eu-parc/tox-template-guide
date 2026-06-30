@@ -11,7 +11,7 @@ RORIdentifier1,"The persistent identifier (PID) of the institution as provided i
 CountryOfInstitution1,Name of the country where the Institution's office is located to which the project leader is associated with,Mandatory,Mandatory,Text,NA
 ContactPointP,"Full name of the person who can be contacted post project end regarding the research results (e.g. access, troubleshoot, or respond to questions/ issues related to the research). It could be the same as project leader (s)
 If there is no single person who can be contacted, but a central/generic ID is provided, mention ""Not available""",Mandatory,Mandatory,Text,NA
-ContactPointPEmail,Email id of the Contact Point,Mandatory,Mandatory,String,NA
+ContactPointPemail,Email id of the Contact Point,Mandatory,Mandatory,String,NA
 HostingInstitution,"Typically, the organisation allowing the resource to be available on the
 internet through the provision of its hardware/software/operating support.
 Note: May also be used for an organisation that stores the data offline. Often a data centre **(if that data centre is not the “publisher” of the resource.)**
