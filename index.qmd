@@ -1,7 +1,3 @@
 # Preface {.unnumbered}
 
-::: {.callout-warning}
-We're in the process of finalizing this guide; content can undergo (minor) changes.
-:::
-
 Welcome to the PARC In vitro Toxicity Meta(data) Reporting Template User Guide! To get started, please click the link at the bottom right to go to the first chapter.
