@@ -63,6 +63,11 @@ book:
         - id: niva
           name: Norwegian Institute for Water Research, NO
           ror: https://ror.org/03hrf8236
+    - name: Knut Erik Tollefsen
+      id: ket
+      orcid: 0000-0002-7534-0937
+      affiliation:
+        - ref: niva
     - name: Iseult Lynch
       id: il
       orcid: 0000-0003-4250-4584
