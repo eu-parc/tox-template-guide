@@ -56,18 +56,13 @@ book:
         - id: auth
           name: Aristotle University of Thessaloniki, GR
           ror: https://ror.org/02j61yw88
-    - name: Walter Zobl
-      id: wz
-      orcid: 0009-0003-2750-8330
-      affiliation:
-        - id: niva
-          name: Norwegian Institute for Water Research, NO
-          ror: https://ror.org/03hrf8236
     - name: Knut Erik Tollefsen
       id: ket
       orcid: 0000-0002-7534-0937
       affiliation:
-        - ref: niva
+        - id: niva
+          name: Norwegian Institute for Water Research, NO
+          ror: https://ror.org/03hrf8236
     - name: Iseult Lynch
       id: il
       orcid: 0000-0003-4250-4584
